@@ -16,6 +16,33 @@
                 />
 
             <Entry Text="I am an Entry" />
+            <!--Entrada tipo de texto com placeholder e cor-->
+            <Entry Placeholder="Username" PlaceholderColor="Olive" />
+            <!---Entrada tipo caixa de texto somente leitura-->
+            <Entry Text="This is a read-only Entry" IsReadOnly="true" />
+            <!--Entrada tipo caixa de texto com especificacao de tamanho-->
+            <Entry Text="EntryTam10" MaxLength="10" />
+            <!--Entrada tipo caixa de texto com espcificacao de tamanho e espacamento do texto-->
+            <Entry Text="EntryTam10" MaxLength="10" CharacterSpacing="10"/>
+            <!--Entrada tipo caixa de texto de senha-->
+            <Entry IsPassword="true" />
+            <!--Entrada tipo caixa de texto de senha e placeholder de senha-->
+            <Entry IsPassword="true" Placeholder="Password" />
+            <!--Entrada tipo caixa de texto espeficando posicao do cursor-->
+            <Entry Text="Cursor position set" CursorPosition="5" />
+            <!--Entrada tipo caixa de texto especificando posicao do curso e texto selecionado -->
+            <Entry Text="Cursor position and selection length set" CursorPosition="2" SelectionLength="10" />
+            <!--Entrada tipo caixa de texto definido cor do texto-->
+            <Entry TextColor="Green" />
+            <!--Entrada tipo caixa de texto definindo cor do fundo-->
+            <Entry BackgroundColor="#2c3e50" />
+            <!--Entrada tipo caixa de texto com botão de limpar -->
+            <Entry Text="Xamarin.Forms" ClearButtonVisibility="WhileEditing" />
+            <!--Entrada tipo caixa de texto habilitado o teclado de chat-->
+            <Entry Text="Numeric" Keyboard="Numeric" />
+            <Entry StyleId="Email" Placeholder="Email" BackgroundColor="#00BFFF" TextColor="Black" />
+
+            <Button x:Name="loginButton" Text="Login" BackgroundColor="#0072bc" TextColor="White" />
         </StackLayout>
   </ContentView.Content>
 </ContentView>

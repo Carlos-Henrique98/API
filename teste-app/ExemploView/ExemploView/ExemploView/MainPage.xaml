@@ -44,7 +44,7 @@
 
         <Button x:Name="loginButton" Text="Login" BackgroundColor="#0072bc" TextColor="White" />
 
-        <Button x:Name="loginButton" Text="Login" BackgroundColor="#0072bc" TextColor="White" />
+        
 
     </StackLayout>
 
