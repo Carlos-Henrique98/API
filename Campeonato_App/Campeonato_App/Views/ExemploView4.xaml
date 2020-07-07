@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="Campeonato_App.Views.ExemploView4">
     <ContentPage.Content>
-        <StackLayout Margin="20,35,20,20">
+        <StackLayout>
+            <!--<ListView>
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Baboon</x:String>
@@ -18,7 +19,11 @@
                     <x:String>Japanese Macaque</x:String>
                 </x:Array>
             </ListView.ItemsSource>
-            </ListView>
+            </ListView> -->
+
+            <ListView ItemsSource="{Binding Monkeys}"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
